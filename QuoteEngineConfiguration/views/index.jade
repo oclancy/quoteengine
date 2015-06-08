@@ -1,0 +1,29 @@
+extends layout
+
+block head
+    script(src='/javascript/app.js')
+    
+block content
+
+     div(ng-app='myApp')
+
+         div(ng-controller='brokerConfigController')
+            h1 {{title}}
+            div
+                div.myGrid(id="grid1" ui-grid="brokerConfig" ui-grid-selection ui-grid-edit)
+                div.buttons
+                    button(ng-click="addData()") Add
+                    button(ng-click="removeLine()") Remove
+                    button(ng-click="save()") Save
+
+            div
+                div.myGrid(id="grid1" ui-grid="priorityConfig" ui-grid-selection ui-grid-edit)
+                div.buttons
+                    button(ng-click="addData()") Add
+                    button(ng-click="removeLine()") Remove
+                    button(ng-click="save()") Save
+                div.myGrid(id="grid1" ui-grid="clientConfig" ui-grid-selection ui-grid-edit)
+                div.buttons
+                    button(ng-click="addData()") Add
+                    button(ng-click="removeLine()") Remove
+                    button(ng-click="save()") Save

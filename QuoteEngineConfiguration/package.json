@@ -1,0 +1,16 @@
+{
+  "name": "QuoteEngineConfiguration",
+  "version": "0.0.0",
+  "description": "QuoteEngineConfiguration",
+  "main": "server.js",
+  "author": {
+    "name": "Admin",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "^4.12.4",
+    "jade": "^1.10.0",
+    "body-parser": "^1.12.4",
+    "ioredis": "^1.3.6"
+  }
+}

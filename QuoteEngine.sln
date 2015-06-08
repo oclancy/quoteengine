@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "QuoteEngineConfiguration", "QuoteEngineConfiguration\QuoteEngineConfiguration.njsproj", "{80F4FEE7-3B41-4C78-9500-E3F915F34B73}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "QuoteMediator", "QuoteMediator\QuoteMediator.fsproj", "{E14CF9C2-8ED5-48F7-B159-B4EA3A14E2A2}"
@@ -10,6 +8,15 @@ EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "QuoteEngine.Interfaces", "QuoteEngine.Interfaces\QuoteEngine.Interfaces.fsproj", "{2DB53A26-F812-4465-8F95-B8097264519B}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "QuoteEngine", "QuoteEngine\QuoteEngine.fsproj", "{950513AA-23A0-4FFF-968E-8A7CF91F97DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuoteEngineApp", "QuoteEngineApp\QuoteEngineApp.csproj", "{4A8DC1ED-D398-4959-A1DF-EF376A1BB5B4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{29F1FA86-093B-4DBD-8AC9-B44DEAA0F17B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +40,10 @@ Global
 		{950513AA-23A0-4FFF-968E-8A7CF91F97DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{950513AA-23A0-4FFF-968E-8A7CF91F97DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{950513AA-23A0-4FFF-968E-8A7CF91F97DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A8DC1ED-D398-4959-A1DF-EF376A1BB5B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A8DC1ED-D398-4959-A1DF-EF376A1BB5B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A8DC1ED-D398-4959-A1DF-EF376A1BB5B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A8DC1ED-D398-4959-A1DF-EF376A1BB5B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

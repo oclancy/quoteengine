@@ -125,6 +125,6 @@ myApp.controller('brokerConfigController', ['$scope', "$http", function($scope, 
 
     $http.get("/data/"+$scope.broker.name)
          .success(function(data){
-                $scope.brokerConfig.data = data || [];
+                //$scope.brokerConfig.data = data || [];
              });
 }]);
